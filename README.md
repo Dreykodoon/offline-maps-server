@@ -1,0 +1,1 @@
+Server side of the practice project "Offline Maps".
