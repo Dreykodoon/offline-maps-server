@@ -12,7 +12,8 @@
         "eslint-plugin-standard": "4.0.0"
     },
     "dependencies": {
-        "koa": "2.7.0"
+        "koa": "2.7.0",
+        "koa-router": "7.4.0"
     },
     "scripts": {
         "start": "node src/index.js",
