@@ -133,10 +133,7 @@
         ],
         "brace-style": [
             2,
-            "stroustrup",
-            {
-                "allowSingleLine": false
-            }
+            "1tbs"
         ],
         "comma-spacing": [
             2,
@@ -220,6 +217,7 @@
         "space-before-function-paren": [
             "error",
             {
+                "named": "never",
                 "asyncArrow": "always"
             }
         ],
