@@ -3,8 +3,14 @@
 /.pnp
 .pnp.js
 
+# environment
+.vscode
+
 # testing
 /coverage
+
+# logging
+/src/logfile.log
 
 # production
 /build

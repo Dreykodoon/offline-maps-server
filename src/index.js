@@ -1,7 +1,10 @@
 const Koa = require('koa');
 const Router = require('koa-router');
 
-require('./database');
+/* Logger must be initialized before database */
+const logger = require('./configurations/logger');
+require('./configurations/database');
+
 const TestDAO = require('./test/testDAO');
 
 
@@ -19,5 +22,5 @@ app
 
 const port = 8080;
 
-console.log('Listening on port ', port);
+logger.info(`Listening on port ${port}`);
 app.listen(port);
